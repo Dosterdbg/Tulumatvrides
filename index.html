@@ -5,17 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ATV Tours in Tulum | Tulum ATV Rides</title>
   <meta name="description" content="Experience the best ATV tours in Tulum with local guides. Explore cenotes, ruins, and the jungle. Also offering scooter, ATV & UTV rentals, fishing tours, private chef, yacht rentals, and transportation." />
+  <link rel="canonical" href="https://www.tulumatvrides.com/" />
 
-  <!-- Fuentes exactas de Kangaroo Island Trails -->
+  <!-- Google Fonts: IM Fell English + Lato (idénticas a Kangaroo Island Trails) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Schema LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Tulum ATV Rides",
+    "url": "https://www.tulumatvrides.com",
+    "telephone": "+52 984 253 1713",
+    "email": "reservations@tulumatvrides.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Aldea Zama",
+      "addressLocality": "Tulum",
+      "addressRegion": "Quintana Roo",
+      "postalCode": "77760",
+      "addressCountry": "MX"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": "20.2114", "longitude": "-87.4654" },
+    "sameAs": [
+      "https://www.instagram.com/tulumatvrides",
+      "https://www.facebook.com/tulumatvrides"
+    ]
+  }
+  </script>
 </head>
 <body>
 
-<!-- ============ HEADER (transparente sobre el hero) ============ -->
+<!-- ============================================================
+     HEADER (transparente sobre el hero, se vuelve sólido al scroll)
+============================================================ -->
 <header class="site-header" id="site-header">
   <div class="header-inner">
     <a href="#" class="logo">
@@ -42,7 +70,9 @@
   </div>
 </header>
 
-<!-- ============ HERO (100vh) ============ -->
+<!-- ============================================================
+     HERO (100vh, imagen de fondo, overlay, H1 centrado)
+============================================================ -->
 <section class="hero" id="home">
   <div class="hero-media">
     <img src="images/hero.jpg" alt="ATV tour in Tulum" />
@@ -55,7 +85,9 @@
   </div>
 </section>
 
-<!-- ============ TRUST ============ -->
+<!-- ============================================================
+     TRUST (estrellas + slider de testimonios con dots)
+============================================================ -->
 <section class="trust section">
   <div class="container">
     <p class="stars">★★★★★</p>
@@ -82,7 +114,9 @@
   </div>
 </section>
 
-<!-- ============ INTRO ============ -->
+<!-- ============================================================
+     INTRO (2 columnas: texto + imagen)
+============================================================ -->
 <section class="intro section">
   <div class="container intro-grid">
     <div class="intro-text">
@@ -95,7 +129,9 @@
   </div>
 </section>
 
-<!-- ============ TOURS GRID (3 columnas) ============ -->
+<!-- ============================================================
+     TOURS GRID (6 tarjetas, 3 columnas)
+============================================================ -->
 <section class="tours-section section" id="tours">
   <div class="container">
     <h2 class="section-title-center">Top-Rated Tours &amp; Services in Tulum</h2>
@@ -167,31 +203,52 @@
   </div>
 </section>
 
-<!-- ============ WHY CHOOSE US ============ -->
-<section class="why section">
+<!-- ============================================================
+     WHY CHOOSE US (4 columnas, iconos SVG con tamaño controlado)
+============================================================ -->
+<section class="why section" id="services">
   <div class="container">
     <div class="why-grid">
 
       <div class="why-item">
-        <div class="why-icon">🌿</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 15c-15 0-28 12-28 28 0 20 28 52 28 52s28-32 28-52c0-16-13-28-28-28z"/>
+            <circle cx="50" cy="42" r="10"/>
+          </svg>
+        </div>
         <h5>Connect With Nature</h5>
         <p>Connect and learn about local wildlife and nature on your tour with expert guides.</p>
       </div>
 
       <div class="why-item">
-        <div class="why-icon">📍</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="50" cy="50" r="35"/>
+            <path d="M35 50l10 10 20-22"/>
+          </svg>
+        </div>
         <h5>Amazing Inclusions</h5>
         <p>No hidden costs. Enjoy inclusions such as meals, entrance fees, drinks, and guided tours.</p>
       </div>
 
       <div class="why-item">
-        <div class="why-icon">🧑‍✈️</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="50" cy="38" r="14"/>
+            <path d="M22 82c0-16 12-26 28-26s28 10 28 26"/>
+          </svg>
+        </div>
         <h5>Local Tour Guides</h5>
         <p>Be guided by expert local legends that know all the secrets of Tulum and the Riviera Maya.</p>
       </div>
 
       <div class="why-item">
-        <div class="why-icon">⭐</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 15l11 23 25 4-18 18 4 25-22-12-22 12 4-25-18-18 25-4z"/>
+          </svg>
+        </div>
         <h5>Five Star Service</h5>
         <p>Enjoy personalized tours with small groups of 10 people for maximum enjoyment and comfort.</p>
       </div>
@@ -200,7 +257,9 @@
   </div>
 </section>
 
-<!-- ============ ATV TOURS DETAIL ============ -->
+<!-- ============================================================
+     ATV TOURS DETAIL (3 tarjetas)
+============================================================ -->
 <section class="tour-detail section" id="tour-atv">
   <div class="container">
     <h2 class="section-title-center">ATV Tours in Tulum</h2>
@@ -257,7 +316,9 @@
   </div>
 </section>
 
-<!-- ============ RENTALS ============ -->
+<!-- ============================================================
+     RENTALS (3 tarjetas)
+============================================================ -->
 <section class="rentals section" id="rentals">
   <div class="container">
     <h2 class="section-title-center">Scooter, ATV &amp; UTV Rentals</h2>
@@ -293,7 +354,9 @@
   </div>
 </section>
 
-<!-- ============ YACHT ============ -->
+<!-- ============================================================
+     YACHT & CATAMARAN (2 tarjetas grandes)
+============================================================ -->
 <section class="yacht-section section" id="yacht">
   <div class="container">
     <h2 class="section-title-center">Yacht &amp; Catamaran Rental</h2>
@@ -320,7 +383,9 @@
   </div>
 </section>
 
-<!-- ============ FISHING ============ -->
+<!-- ============================================================
+     FISHING (2 tarjetas)
+============================================================ -->
 <section class="fishing section" id="fishing">
   <div class="container">
     <h2 class="section-title-center">Fishing Tours in Tulum</h2>
@@ -360,7 +425,9 @@
   </div>
 </section>
 
-<!-- ============ PRIVATE CHEF ============ -->
+<!-- ============================================================
+     PRIVATE CHEF (2 columnas: texto + imagen)
+============================================================ -->
 <section class="chef section" id="chef">
   <div class="container chef-inner">
     <div class="chef-text">
@@ -377,7 +444,9 @@
   </div>
 </section>
 
-<!-- ============ TRANSPORTATION ============ -->
+<!-- ============================================================
+     TRANSPORTATION (2 tarjetas)
+============================================================ -->
 <section class="transport section" id="transport">
   <div class="container">
     <h2 class="section-title-center">Transportation in Tulum</h2>
@@ -407,7 +476,9 @@
   </div>
 </section>
 
-<!-- ============ FAQ ============ -->
+<!-- ============================================================
+     FAQ (acordeón)
+============================================================ -->
 <section class="faq section" id="faq">
   <div class="container">
     <h2 class="section-title-center">Frequently Asked Questions</h2>
@@ -437,7 +508,9 @@
   </div>
 </section>
 
-<!-- ============ CTA FINAL ============ -->
+<!-- ============================================================
+     CTA FINAL
+============================================================ -->
 <section class="cta-final section" id="contact">
   <div class="container">
     <h2>Your Tulum Adventure Starts Here</h2>
@@ -446,7 +519,9 @@
   </div>
 </section>
 
-<!-- ============ FOOTER ============ -->
+<!-- ============================================================
+     FOOTER (4 columnas)
+============================================================ -->
 <footer class="site-footer">
   <div class="container footer-grid">
 
@@ -488,9 +563,9 @@
       <p>+52 984 253 1713</p>
       <p>Aldea Zama, Tulum, MX</p>
       <div class="footer-social">
-        <a href="https://www.instagram.com/tulumatvrides" target="_blank">IG</a>
-        <a href="https://www.facebook.com/tulumatvrides" target="_blank">FB</a>
-        <a href="https://wa.me/529842531713" target="_blank">WA</a>
+        <a href="https://www.instagram.com/tulumatvrides" target="_blank" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com/tulumatvrides" target="_blank" aria-label="Facebook">FB</a>
+        <a href="https://wa.me/529842531713" target="_blank" aria-label="WhatsApp">WA</a>
       </div>
     </div>
 
@@ -501,8 +576,11 @@
   </div>
 </footer>
 
+<!-- Botón flotante de WhatsApp (SVG con tamaño controlado en CSS) -->
 <a href="https://wa.me/529842531713" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/></svg>
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
+  </svg>
 </a>
 
 <script src="js/main.js"></script>
