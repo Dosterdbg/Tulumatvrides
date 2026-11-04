@@ -1,365 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ATV Tours in Tulum | Tulum ATV Rides</title>
-  <meta name="description" content="Experience the best ATV tours in Tulum with local guides. Explore cenotes, ruins, and the jungle." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulum ATV Rides | Tours & Adventures</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ============================================================
-     1. HEADER (transparente sobre el hero, sólido al scroll)
-============================================================ -->
-<header class="site-header" id="site-header">
-  <div class="header-inner">
-    <a href="#" class="logo">
-      <img src="images/logo.png" alt="Tulum ATV Rides" />
-    </a>
-    <nav class="main-nav" id="main-nav">
-      <ul>
-        <li><a href="#tours">Tours</a></li>
-        <li><a href="#rentals">Rentals</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#faq">FAQ</a></li>
-      </ul>
-    </nav>
-    <div class="header-actions">
-      <a href="#contact" class="btn-header-outline">Contact Us</a>
-      <a href="https://wa.me/529842531713" target="_blank" class="btn-header-solid">Book Now</a>
-    </div>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+    <!-- Header -->
+    <header>
+        <div class="logo">Tulum ATV Rides</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#tours">Tours</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact" class="btn-nav">Book Now</a>
+        </nav>
+    </header>
 
-<!-- ============================================================
-     2. HERO / BANNER (100vh)
-============================================================ -->
-<section class="hero" id="home">
-  <div class="hero-media">
-    <img src="images/hero.jpg" alt="ATV tour in Tulum" />
-  </div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1>Explore the Best ATV Tours in Tulum</h1>
-    <p class="hero-subtitle">Unplug. Explore. Reconnect.</p>
-    <a href="#tours" class="btn-hero">Book Your Journey Today</a>
-  </div>
-</section>
-
-<!-- ============================================================
-     3. TRUST / PRUEBA SOCIAL (estrellas + slider de reseñas)
-============================================================ -->
-<section class="trust section">
-  <div class="container">
-    <p class="stars">★★★★★</p>
-    <h2>See Why Travelers Trust Us Most</h2>
-
-    <div class="trust-slider" id="trust-slider">
-      <div class="trust-slide active">
-        <h3>So Glad We Booked!</h3>
-        <p>"We were hesitant at first, but this was the best decision of our whole trip. Worth it!"</p>
-        <span class="author">— Jen, Canada (Tripadvisor)</span>
-      </div>
-      <div class="trust-slide">
-        <h3>The Perfect Day in Nature</h3>
-        <p>"It felt like a road trip with friends. Our guide was warm, funny, and incredibly knowledgeable."</p>
-        <span class="author">— Lisa, USA (Tripadvisor)</span>
-      </div>
-      <div class="trust-slide">
-        <h3>Worry-Free, Worth Every Penny</h3>
-        <p>"We didn't have to worry about a thing — everything was taken care of for us."</p>
-        <span class="author">— Amanda, Australia (Google)</span>
-      </div>
-    </div>
-    <div class="trust-dots" id="trust-dots"></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     4. INTRO (texto + imagen, como Kangaroo Island)
-============================================================ -->
-<section class="intro section">
-  <div class="container intro-grid">
-    <div class="intro-text">
-      <h2>Unforgettable ATV Tours &amp; Adventures</h2>
-      <h4>Jungle, Cenotes &amp; Ruins</h4>
-      <p>Tulum ATV Rides is more than a tour company — we're your gateway to the Riviera Maya's soul. Since 2018, we've offered exclusive small group and private tours that showcase the best of Tulum: cenotes, Mayan ruins, jungle trails, and local flavors. With us, it feels like a road trip with friends. Inspired, not rushed.</p>
-      <a href="https://wa.me/529842531713" target="_blank" class="btn-primary">Book Now</a>
-    </div>
-    <div class="intro-image" style="background-image:url('images/intro.jpg');"></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     5. GRID DE TOURS (6 tarjetas, 3 columnas)
-============================================================ -->
-<section class="tours-section section" id="tours">
-  <div class="container">
-    <h2 class="section-title-center">Top-Rated Tours &amp; Services in Tulum</h2>
-    <p class="section-subtitle-center">Small groups. Local guides. Unforgettable memories.</p>
-
-    <div class="tours-grid">
-
-      <a href="#tour-atv" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/atv-tour.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>ATV Tours in Tulum</h3>
-          <p>Ride through the jungle to cenotes, ruins &amp; taco spots</p>
-          <span class="tour-link">Explore More →</span>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the Best ATV Tours in Tulum</h1>
+            <p>Unplug. Explore. Reconnect. Jungle, cenotes & ruins await.</p>
+            <a href="#tours" class="btn-primary">Book Your Journey Today</a>
         </div>
-      </a>
+    </section>
 
-      <a href="#rentals" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/rental.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>Scooter, ATV &amp; UTV Rental</h3>
-          <p>Explore Tulum at your own pace. Delivery &amp; insurance included</p>
-          <span class="tour-link">Explore More →</span>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Why Choose Us</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Local Expert Guides</h3>
+                <p>Our guides know every hidden cenote and secret jungle trail.</p>
+            </div>
+            <div class="service-card">
+                <h3>Safety First</h3>
+                <p>Fully insured vehicles and top-of-the-line safety equipment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Flexible Schedules</h3>
+                <p>Morning, afternoon, or sunset tours—you choose.</p>
+            </div>
+            <div class="service-card">
+                <h3>Easy Booking</h3>
+                <p>Book in minutes via WhatsApp. No forms, no hassle.</p>
+            </div>
         </div>
-      </a>
+    </section>
 
-      <a href="#yacht" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/yacht.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>Yacht &amp; Catamaran Rental</h3>
-          <p>Sail the Riviera Maya on a private yacht or catamaran</p>
-          <span class="tour-link">Explore More →</span>
+    <!-- Tours Section -->
+    <section id="tours" class="tours">
+        <h2>Our Tours & Services</h2>
+        <div class="tours-grid">
+            <!-- Tour 1 -->
+            <div class="tour-card">
+                <img src="images/atv-tour.jpg" alt="ATV Tours">
+                <div class="tour-info">
+                    <h3>ATV Tours in Tulum</h3>
+                    <p>Ride through the jungle to cenotes, ruins & taco spots.</p>
+                    <a href="#" class="btn-tour">Explore More</a>
+                </div>
+            </div>
+            <!-- Tour 2 -->
+            <div class="tour-card">
+                <img src="images/rental.jpg" alt="Rentals">
+                <div class="tour-info">
+                    <h3>Scooter, ATV & UTV Rental</h3>
+                    <p>Explore Tulum at your own pace. Delivery & insurance included.</p>
+                    <a href="#" class="btn-tour">Explore More</a>
+                </div>
+            </div>
+            <!-- Tour 3 -->
+            <div class="tour-card">
+                <img src="images/yacht.jpg" alt="Yacht Rental">
+                <div class="tour-info">
+                    <h3>Yacht & Catamaran Rental</h3>
+                    <p>Sail the Riviera Maya on a private yacht or catamaran.</p>
+                    <a href="#" class="btn-tour">Explore More</a>
+                </div>
+            </div>
         </div>
-      </a>
+    </section>
 
-      <a href="#fishing" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/fishing.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>Fishing Tours in Tulum</h3>
-          <p>Half-day &amp; full-day fishing charters with expert captains</p>
-          <span class="tour-link">Explore More →</span>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"I had the most amazing experience renting an ATV from Tulum ATV Rides! The staff was incredibly friendly and helpful."</p>
+                <span>— Rebecca Pecoy, CA</span>
+            </div>
+            <div class="testimonial">
+                <p>"The ATV tour to the cenote was the highlight of our trip. Our guide was knowledgeable and fun."</p>
+                <span>— Sarah M., USA</span>
+            </div>
         </div>
-      </a>
+    </section>
 
-      <a href="#chef" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/chef.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>Private Chef Services</h3>
-          <p>Gourmet dining in your villa or on the beach</p>
-          <span class="tour-link">Explore More →</span>
-        </div>
-      </a>
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Tulum ATV Rides | Aldea Zama, Tulum, MX</p>
+        <p>WhatsApp: +52 984 253 1713 | Email: reservations@tulumatvrides.com</p>
+        <p>&copy; 2026 Tulum ATV Rides. All rights reserved.</p>
+    </footer>
 
-      <a href="#transport" class="tour-card">
-        <div class="tour-img" style="background-image:url('images/transport.jpg');"></div>
-        <div class="tour-overlay"></div>
-        <div class="tour-info">
-          <h3>Transportation</h3>
-          <p>Airport transfers &amp; private drivers across the Riviera Maya</p>
-          <span class="tour-link">Explore More →</span>
-        </div>
-      </a>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     6. WHY CHOOSE US (4 columnas con iconos SVG)
-============================================================ -->
-<section class="why section" id="services">
-  <div class="container">
-    <div class="why-grid">
-
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M50 15c-15 0-28 12-28 28 0 20 28 52 28 52s28-32 28-52c0-16-13-28-28-28z"/>
-            <circle cx="50" cy="42" r="10"/>
-          </svg>
-        </div>
-        <h5>Connect With Nature</h5>
-        <p>Connect and learn about local wildlife and nature on your tour with expert guides.</p>
-      </div>
-
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="50" cy="50" r="35"/>
-            <path d="M35 50l10 10 20-22"/>
-          </svg>
-        </div>
-        <h5>Amazing Inclusions</h5>
-        <p>No hidden costs. Enjoy inclusions such as meals, entrance fees, drinks, and guided tours.</p>
-      </div>
-
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="50" cy="38" r="14"/>
-            <path d="M22 82c0-16 12-26 28-26s28 10 28 26"/>
-          </svg>
-        </div>
-        <h5>Local Tour Guides</h5>
-        <p>Be guided by expert local legends that know all the secrets of Tulum and the Riviera Maya.</p>
-      </div>
-
-      <div class="why-item">
-        <div class="why-icon">
-          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M50 15l11 23 25 4-18 18 4 25-22-12-22 12 4-25-18-18 25-4z"/>
-          </svg>
-        </div>
-        <h5>Five Star Service</h5>
-        <p>Enjoy personalized tours with small groups of 10 people for maximum enjoyment and comfort.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     7. TESTIMONIOS (slider)
-============================================================ -->
-<section class="testimonials section" id="testimonials">
-  <div class="container">
-    <h2 class="section-title-center">What Our Guests Say</h2>
-    <div class="testimonials-slider" id="testimonials-slider">
-      <div class="testimonial active">
-        <div class="stars">★★★★★</div>
-        <p>"I had the most amazing experience renting an ATV from Tulum ATV Rides! The staff was incredibly friendly and helpful, providing us with all the necessary information, safety instructions, and places to visit."</p>
-        <span class="author">— Rebecca Pecoy, CA</span>
-      </div>
-      <div class="testimonial">
-        <div class="stars">★★★★★</div>
-        <p>"The ATV tour to the cenote was the highlight of our trip. Our guide was knowledgeable and fun, and the cenote was absolutely stunning."</p>
-        <span class="author">— Sarah M., USA</span>
-      </div>
-      <div class="testimonial">
-        <div class="stars">★★★★★</div>
-        <p>"We rented scooters for the whole week and it was the best decision. Delivery was on time and the scooters were in perfect condition."</p>
-        <span class="author">— Lucas P., Argentina</span>
-      </div>
-    </div>
-    <div class="slider-dots" id="slider-dots"></div>
-  </div>
-</section>
-
-<!-- ============================================================
-     8. FAQ (acordeón)
-============================================================ -->
-<section class="faq section" id="faq">
-  <div class="container">
-    <h2 class="section-title-center">Frequently Asked Questions</h2>
-    <div class="faq-list" id="faq-list">
-      <div class="faq-item">
-        <button class="faq-question">Do I need a license to drive an ATV in Tulum?</button>
-        <div class="faq-answer"><p>No, you don't need a special license to drive an ATV during our tours. We provide a safety briefing and instructions before every ride.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">What should I bring on my ATV tour?</button>
-        <div class="faq-answer"><p>We recommend bringing comfortable clothes, closed-toe shoes, sunscreen, a hat, sunglasses, and a change of clothes (you may get muddy!). We provide helmets and goggles.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">Do you offer hotel pickup?</button>
-        <div class="faq-answer"><p>Yes, we offer hotel pickup for private tours and some group tours. Please contact us via WhatsApp to confirm availability for your location.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">Is it safe to rent a scooter in Tulum?</button>
-        <div class="faq-answer"><p>Yes, as long as you drive carefully and follow local traffic rules. Our scooters are fully insured and undergo regular maintenance. We also provide helmets.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">Can I book a private tour?</button>
-        <div class="faq-answer"><p>Absolutely! We offer fully customizable private tours. Contact us via WhatsApp to discuss your route, schedule, and preferences.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     9. CTA FINAL
-============================================================ -->
-<section class="cta-final section" id="contact">
-  <div class="container">
-    <h2>Your Tulum Adventure Starts Here</h2>
-    <p>Whether you want to ride an ATV through the jungle, sail on a yacht, or enjoy a private chef — we've got you covered.</p>
-    <a href="https://wa.me/529842531713" target="_blank" class="btn-hero">Book Your Adventure Today</a>
-  </div>
-</section>
-
-<!-- ============================================================
-     10. FOOTER (4 columnas)
-============================================================ -->
-<footer class="site-footer">
-  <div class="container footer-grid">
-
-    <div class="footer-col">
-      <h5>Quick Links</h5>
-      <ul>
-        <li><a href="#tours">ATV Tours</a></li>
-        <li><a href="#rentals">Rentals</a></li>
-        <li><a href="#fishing">Fishing Tours</a></li>
-        <li><a href="#chef">Private Chef</a></li>
-        <li><a href="#transport">Transportation</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <h5>Experiences</h5>
-      <ul>
-        <li><a href="#tour-atv">ATV + Cenote</a></li>
-        <li><a href="#tour-atv">ATV + Ruins</a></li>
-        <li><a href="#tour-atv">ATV + Tacos</a></li>
-        <li><a href="#yacht">Yacht Rental</a></li>
-        <li><a href="#rentals">Scooter Rental</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <h5>About Us</h5>
-      <ul>
-        <li><a href="#">Our Story</a></li>
-        <li><a href="#">Sustainability</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Terms &amp; Conditions</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <h5>Get in touch</h5>
-      <p>reservations@tulumatvrides.com</p>
-      <p>+52 984 253 1713</p>
-      <p>Aldea Zama, Tulum, MX</p>
-      <div class="footer-social">
-        <a href="https://www.instagram.com/tulumatvrides" target="_blank" aria-label="Instagram">IG</a>
-        <a href="https://www.facebook.com/tulumatvrides" target="_blank" aria-label="Facebook">FB</a>
-        <a href="https://wa.me/529842531713" target="_blank" aria-label="WhatsApp">WA</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© <span id="year"></span> Tulum ATV Rides. All rights reserved.</p>
-  </div>
-</footer>
-
-<!-- Botón flotante de WhatsApp -->
-<a href="https://wa.me/529842531713" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
-  </svg>
-</a>
-
-<script src="js/main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
