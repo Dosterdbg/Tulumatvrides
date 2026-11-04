@@ -1,113 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tulum ATV Rides | Tours & Adventures</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATV Tours in Tulum | Tulum ATV Rides</title>
+
+  <!-- Fuentes exactas de Kangaroo Island Trails -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">Tulum ATV Rides</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#tours">Tours</a>
-            <a href="#testimonials">Reviews</a>
-            <a href="#contact" class="btn-nav">Book Now</a>
-        </nav>
-    </header>
+<!-- ============================================================
+     HEADER (idéntico a Kangaroo Island Trails)
+============================================================ -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Explore the Best ATV Tours in Tulum</h1>
-            <p>Unplug. Explore. Reconnect. Jungle, cenotes & ruins await.</p>
-            <a href="#tours" class="btn-primary">Book Your Journey Today</a>
-        </div>
-    </section>
+    <!-- Logo a la izquierda -->
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="Tulum ATV Rides" />
+    </a>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Why Choose Us</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Local Expert Guides</h3>
-                <p>Our guides know every hidden cenote and secret jungle trail.</p>
-            </div>
-            <div class="service-card">
-                <h3>Safety First</h3>
-                <p>Fully insured vehicles and top-of-the-line safety equipment.</p>
-            </div>
-            <div class="service-card">
-                <h3>Flexible Schedules</h3>
-                <p>Morning, afternoon, or sunset tours—you choose.</p>
-            </div>
-            <div class="service-card">
-                <h3>Easy Booking</h3>
-                <p>Book in minutes via WhatsApp. No forms, no hassle.</p>
-            </div>
-        </div>
-    </section>
+    <!-- Menú de navegación centrado -->
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#plan">Plan Your Trip</a></li>
+      </ul>
+    </nav>
 
-    <!-- Tours Section -->
-    <section id="tours" class="tours">
-        <h2>Our Tours & Services</h2>
-        <div class="tours-grid">
-            <!-- Tour 1 -->
-            <div class="tour-card">
-                <img src="images/atv-tour.jpg" alt="ATV Tours">
-                <div class="tour-info">
-                    <h3>ATV Tours in Tulum</h3>
-                    <p>Ride through the jungle to cenotes, ruins & taco spots.</p>
-                    <a href="#" class="btn-tour">Explore More</a>
-                </div>
-            </div>
-            <!-- Tour 2 -->
-            <div class="tour-card">
-                <img src="images/rental.jpg" alt="Rentals">
-                <div class="tour-info">
-                    <h3>Scooter, ATV & UTV Rental</h3>
-                    <p>Explore Tulum at your own pace. Delivery & insurance included.</p>
-                    <a href="#" class="btn-tour">Explore More</a>
-                </div>
-            </div>
-            <!-- Tour 3 -->
-            <div class="tour-card">
-                <img src="images/yacht.jpg" alt="Yacht Rental">
-                <div class="tour-info">
-                    <h3>Yacht & Catamaran Rental</h3>
-                    <p>Sail the Riviera Maya on a private yacht or catamaran.</p>
-                    <a href="#" class="btn-tour">Explore More</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Botones a la derecha -->
+    <div class="header-actions">
+      <a href="#contact" class="btn-header-outline">Contact Us</a>
+      <a href="https://wa.me/529842531713" target="_blank" class="btn-header-solid">Book Now</a>
+    </div>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <h2>What Our Guests Say</h2>
-        <div class="testimonial-slider">
-            <div class="testimonial active">
-                <p>"I had the most amazing experience renting an ATV from Tulum ATV Rides! The staff was incredibly friendly and helpful."</p>
-                <span>— Rebecca Pecoy, CA</span>
-            </div>
-            <div class="testimonial">
-                <p>"The ATV tour to the cenote was the highlight of our trip. Our guide was knowledgeable and fun."</p>
-                <span>— Sarah M., USA</span>
-            </div>
-        </div>
-    </section>
+    <!-- Hamburguesa (mobile) -->
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <p>Tulum ATV Rides | Aldea Zama, Tulum, MX</p>
-        <p>WhatsApp: +52 984 253 1713 | Email: reservations@tulumatvrides.com</p>
-        <p>&copy; 2026 Tulum ATV Rides. All rights reserved.</p>
-    </footer>
+  </div>
+</header>
 
-    <script src="script.js"></script>
+<!-- ============================================================
+     HERO / BANNER GIGANTE CON VIDEO DE FONDO
+============================================================ -->
+<section class="hero" id="home">
+
+  <!-- Video de fondo (ocupa toda la pantalla) -->
+  <div class="hero-video-wrapper">
+    <video
+      class="hero-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="images/hero-poster.jpg">
+      <source src="images/hero-video.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Overlay oscuro para legibilidad del texto -->
+  <div class="hero-overlay"></div>
+
+  <!-- Contenido centrado -->
+  <div class="hero-content">
+    <h1>Explore the Best ATV Tours in Tulum</h1>
+    <p class="hero-subtitle">Unplug. Explore. Reconnect.</p>
+    <a href="#tours" class="btn-hero">Book Your Journey Today</a>
+  </div>
+
+</section>
+
+<script src="js/main.js"></script>
 </body>
 </html>
